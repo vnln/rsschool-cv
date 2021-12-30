@@ -2,8 +2,6 @@
 
 ## Junior Frontend Developer
 
----
-
 ### Contact information and socials:
 
 - **Phone:** +7 937 658 7058<br>
@@ -23,3 +21,15 @@ Gradually moved into web development, frontend in particular (Javascript/Typescr
 I'm familiar with version control systems, project management systems (Jira). I also have experience with graphic editors. At the moment I have one deployed SPA-project on github.
 
 I can understand other people's code. I feel confident in Linux environment, I'm not afraid of the command line interface. I've been learning English since my early childhood, my recent testing showed that I'm at the C2 level.
+
+---
+
+### Skills
+
+- HTML/CSS (Flexbox, Grid, Responsive Design, TailwindCSS)
+- JavaScript/Typescript
+- ReactJS, NextJS
+- Python (basic knowledge)
+- Figma/Photoshop
+
+---
