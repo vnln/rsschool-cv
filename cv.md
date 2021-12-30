@@ -27,9 +27,50 @@ I can understand other people's code. I feel confident in Linux environment, I'm
 ### Skills
 
 - HTML/CSS (Flexbox, Grid, Responsive Design, TailwindCSS)
-- JavaScript/Typescript
+- JavaScript/Typescript/Node.js
 - ReactJS, NextJS
 - Python (basic knowledge)
 - Figma/Photoshop
+
+---
+
+### Languages
+
+- **Russian** (Native)
+- **English** (C2 Proficient)
+
+---
+
+### Courses and certificates
+
+- Python core course: [Sololearn](https://www.sololearn.com/Certificate/1073-13802164/pdf/)
+- Python basics and application: [Bioinformatics Institute](https://stepik.org/cert/785203)
+- Python programming: [Bioinformatics Institute](https://stepik.org/cert/770038)
+- English Certificate (C2 Proficient): [EFSET](https://www.efset.org/cert/T44YHT)
+- RS Schools «JavaScript/Front-end. Stage 0» (in progress)
+
+---
+
+### Experience
+
+- **Skyeng LLC** - Web Content Creator / Layout Designer
+  - November 2020 - July 2021
+- **Freelance** - Self-employed graphic degigner
+  - December 2018 - September 2020
+
+---
+
+### Code example
+
+```
+const maxSequence = arr => {
+  let localMax = 0, globalMax = 0;
+  for (let i = 0; i < arr.length; i++) {
+    localMax = Math.max(arr[i], arr[i] + localMax)
+    if (localMax > globalMax) globalMax = localMax;
+  }
+  return globalMax
+}
+```
 
 ---
