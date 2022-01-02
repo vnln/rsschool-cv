@@ -1,3 +1,185 @@
+:root {
+  --primary-color: #3626a7;
+  --secondary-color: #657ed4;
+  --text-color: #0d0106;
+  --imp-color: #ff331f;
+  --bg-color: #fbfbff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  background-color: var(--bg-color);
+}
+
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+h3 {
+  color: var(--primary-color);
+  padding: 10px 20px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 5px;
+}
+
+p {
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1em;
+  padding: 10px;
+}
+
+header img {
+  border-radius: 50%;
+  border: 10px solid var(--secondary-color);
+}
+
+header div h1 {
+  color: var(--primary-color);
+  font-size: 5em;
+  font-weight: 700;
+}
+
+header div h2 {
+  color: var(--secondary-color);
+  font-size: 2em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  font-size: 1.2em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  display: block;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: var(--secondary-color);
+  color: var(--bg-color);
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  nav li {
+    display: inline-block;
+  }
+}
+
+aside {
+  flex: 1;
+}
+
+#content {
+  flex: 3;
+}
+
+section {
+  padding: 30px;
+}
+
+#contacts ul li {
+  display: flex;
+  align-items: center;
+}
+
+#experience li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.exp-name span,
+.exp-name a {
+  color: var(--secondary-color);
+  font-weight: 400;
+}
+
+code {
+  font-weight: 100;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+footer > a > svg {
+  height: 50px;
+  fill: var(--primary-color);
+}
+
+footer a svg:hover {
+  fill: #000;
+}
+
+.codewars svg {
+  width: 50px;
+  height: 40px;
+}
+
+#contacts .fab,
+#contacts .fas {
+  font-size: 40px;
+}
+
+.fa-check-square {
+  font-size: 20px;
 }
