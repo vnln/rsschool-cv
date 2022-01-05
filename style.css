@@ -58,15 +58,18 @@ ul li {
 }
 
 header {
+  flex: 0 0 250px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 1em;
   padding: 10px;
   margin-bottom: 10px;
+  white-space: nowrap;
 }
 
 header img {
+  height: 200px;
   border-radius: 50%;
   border: 10px solid var(--secondary-color);
 }
@@ -254,13 +257,16 @@ footer a svg:hover {
   font-weight: 700 !important;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 900px) {
   header {
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 900px) {
+  header {
+    flex: 0 0 410px;
+  }
   nav ul {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -279,6 +285,16 @@ footer a svg:hover {
   }
   pre {
     font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header div h1 {
+    font-size: 60px;
+  }
+
+  header div h2 {
+    font-size: 25px;
   }
 }
 
