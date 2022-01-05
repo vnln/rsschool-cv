@@ -529,20 +529,28 @@ const fibonacci = cacheFn((n)=> {
       </footer>
     </div>
     <script>
-      let nav;
-      let sticky;
-      const getSticky = (offset) => {
+      let nav,
+        sticky,
+        mobile = window.innerWidth < 450,
+        margin = [288, 136, 68, 68][~~(window.innerWidth / 450)];
+      const getSticky = (margin) => {
         nav = document.getElementById("navigation");
-        sticky = nav.offsetTop;
-        document.body.style.setProperty("--sticky-offset", `${offset}px`);
+        sticky = document.querySelector("header").offsetHeight;
+        document.body.style.setProperty("--sticky-offset", `${margin}px`);
       };
-      document.addEventListener("DOMContentLoaded", getSticky(72));
+      document.addEventListener("DOMContentLoaded", getSticky(margin));
       window.matchMedia("(max-width: 900px)").onchange = (e) =>
-        getSticky(e.matches ? 144 : 72);
-      window.matchMedia("(max-width: 450px)").onchange = (e) =>
-        getSticky(e.matches ? 288 : 144);
+        getSticky(e.matches ? 136 : 68);
+      window.matchMedia("(max-width: 450px)").onchange = (e) => {
+        getSticky(e.matches ? 288 : 136);
+        mobile = e.matches ? 1 : 0;
+      };
       window.onscroll = () =>
-        window.pageYOffset > sticky
+        !mobile
+          ? window.pageYOffset > sticky
+            ? nav.classList.add("sticky")
+            : nav.classList.remove("sticky")
+          : window.pageYOffset + 200 > sticky
           ? nav.classList.add("sticky")
           : nav.classList.remove("sticky");
     </script>
