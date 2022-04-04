@@ -4,8 +4,8 @@
 
 ### Contact information and socials:
 
-- **Phone:** +7 937 658 7058<br>
-- **E-mail:** bananiqus@gmail.com<br>
+- **Phone:** +7 937 658 7058
+- **E-mail:** bananiqus@gmail.com
 - **Telegram:** [antourage](https://t.me/antourage/)
 - **LinkedIn:** [vnln](https://www.linkedin.com/in/vnln/)
 - **CodeWars:** [vnln](https://www.codewars.com/users/vnln)
@@ -14,9 +14,9 @@
 
 ### About me
 
-Started learning Python and Javascript/Node.js when I was building a home automation project for myself.
+I've started learning Python and Javascript/Node.js when I was building a home automation project for myself.
 
-Gradually moved into web development, frontend in particular (Javascript/Typescript/React/Next.js/TailwindCSS). Used to work full-time as a layout designer, develop user-scripts to speed up workflow and to automate Google Sheets.
+Then I gradually moved into web development, frontend in particular (Javascript/Typescript/React/Next.js/TailwindCSS). I used to work full-time as a layout designer, develop user-scripts to speed up workflow and to automate Google Sheets.
 
 I'm familiar with version control systems, project management systems (Jira). I also have experience with graphic editors. At the moment I have one deployed SPA-project on github.
 
@@ -47,7 +47,7 @@ I can understand other people's code. I feel confident in Linux environment, I'm
 - Python basics and application: [Bioinformatics Institute](https://stepik.org/cert/785203)
 - Python programming: [Bioinformatics Institute](https://stepik.org/cert/770038)
 - English Certificate (C2 Proficient): [EFSET](https://www.efset.org/cert/T44YHT)
-- RS Schools «JavaScript/Front-end. Stage 0» (in progress)
+- RS Schools JavaScript/Front-end. Stage 0: [773.4/775](https://app.rs.school/certificate/oaybgmpb)
 
 ---
 
